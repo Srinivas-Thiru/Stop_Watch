@@ -41,6 +41,7 @@ button {
   display: inline-block;
   border-width: 0;
 }
+
 .hide {
   visibility: hidden;
 }
@@ -53,13 +54,20 @@ button:hover {
   cursor: pointer;
   color: #fff;
 }
-/*
+
 @media (max-width : 1020px) {
   #stopwatch{
     height: 50%;
     width : 50%;
-    left: -100px;
     top : 100px;
   }
-
-} */
+  body {
+    background-color: #87A2FB;
+  }
+  #stopwatch {
+    margin:25%;
+  }
+  button {
+    font-size: 180%;
+  }
+}
