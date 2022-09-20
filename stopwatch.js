@@ -2,6 +2,10 @@ var time = document.querySelector(".time");
 var start_btn = document.querySelector(".start");
 var stop_btn = document.querySelector(".stop");
 var reset_btn = document.querySelector(".reset");
+var w = window.innerWidth;
+if(w < 1028){
+    document.querySelector(".bg-img").classList.toggle("hide");
+}
 
 var seconds = 0;
 var interval = null;
